@@ -1,15 +1,20 @@
 // TODO Implement this library.
 import 'package:flutter/material.dart';
 
-class Home extends StatefulWidget{
+class Home extends StatefulWidget {
 
   @override
-  _HomeState createState () => _Homestate ();
+  _HomeState createState() => _HomeState();
 }
 
-class _HomeState extends StatefulWidget{
+class _HomeState extends State<Home>{
   @override
   Widget build(BuildContext context){
-    return Container();
+    return Scaffold(
+    appBar: AppBar(
+      title: Text('APPLICATION 2'),
+    ),
+    body: Container(),
+    );
   }
 }
